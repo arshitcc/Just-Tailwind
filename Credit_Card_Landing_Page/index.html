@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tu-Bank</title>
+</head>
+
+<body class="bg-neutral-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="max-w-screen-2xl mx-auto flex justify-between items-center font-bold text-xl gap-4 p-12 ">
+        <div>
+            <img src="./Assets/Icons/Logo.svg" alt="no-img">
+        </div>
+        <div class="hidden md:flex list-none items-center gap-8">
+            <li>HOME</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>About Us</li>
+        </div>
+        <div class="flex gap-2 items-center">
+            <select class="h-full bg-neutral-900" name="languages" id="English">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Russian">Russian</option>
+            </select>
+            
+            <button class="flex" type="submit">
+                <img src="./Assets/Icons/btn-pink-bg.svg" alt="no-img">
+                Contact Us
+            </button>
+        </div>
+    </nav>
+</body>
