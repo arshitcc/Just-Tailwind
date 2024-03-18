@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hosting-Site-Landing-Page </title>
+</head>
+<body>
+
+    <!-- head section -->
+    <header class="flex flex-col bg-neutral-900 text-white p-8 gap-12 ">
+        <nav class="container mx-auto flex justify-between items-center text-xl">
+            <div class="animate-bounce">
+                <img src="./Assets/Logo.svg" alt="no-img">
+            </div>
+
+            <ul class="hidden md:flex text-neutral-500 gap-x-8 ">
+                <li class="hover:font-bold"><a href="#">Home</a></li>
+                <li class="hover:font-bold"><a href="#">Domain</a></li>
+                <li class="hover:font-bold"><a href="#">Features</a></li>
+                <li class="hover:font-bold"><a href="#">Support</a></li>
+                <li class="hover:font-bold"><a href="#">Community</a></li>
+            </ul>
+
+            <button class="bg-sky-600 px-6 py-2 rounded-full text-2xl font-bold"  type="submit">Login</button>
+        </nav>
+
+        <section class="container mx-auto flex flex-col md:grid grid-cols-2 items-center ">
+            <div class="flex flex-col items-start gap-16 text-wrap">    
+                <h1 class="text-5xl md:text-8xl leading-snug font-bold">The best and <span class="text-sky-600 italic">cheapest</span> hosting for your website</h1>
+                <p class="text-2xl md:text-3xl leading-snug text-neutral-500 ">Hosting your website here is easy, access is fast, server security is very well maintained and of course supported by reliable servers.</p>
+                <div class="flex font-bold text-2xl gap-8">
+                    <button class="bg-sky-600 hover:bg-white hover:text-sky-600 px-6 py-2 rounded-full" type="submit">Get Started</button>
+                    <button class="border border-white hover:bg-white hover:text-black px-6 py-2 rounded-full" type="submit">Try Start Free</button>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <img class="float-end" src="./Assets/Illustrations/Group 238502.svg" alt="no-img">
+            </div>
+        </section>
+    </header>
+    
+    
+
+</body>
