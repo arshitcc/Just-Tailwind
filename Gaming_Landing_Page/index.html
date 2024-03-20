@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Gaming Landing Page</title>
+</head>
+<body>
+
+    <!-- Intro Section -->
+   <header class="group bg-[url('./Assets/Photos/futuristic-bg.png')] bg-center bg-cover h-[100vh] text-white">
+        <nav class="container mx-auto flex justify-between items-center pt-8 px-12">
+            <div>
+                <img class="animate-bounce" src="./Assets/Icons/Logo.svg" alt="no-img">
+            </div>
+            <div class="list-none hidden md:flex gap-12 ">
+                <li><a class="text-stone-500 hover:font-bold" href="#">Home</a></li>
+                <li><a class="text-stone-500 hover:font-bold" href="#">Categories</a></li>
+                <li><a class="text-stone-500 hover:font-bold" href="#">How it Work</a></li>
+                <li><a class="text-stone-500 hover:font-bold" href="#">Pricing</a></li>
+            </div>
+            <div class="flex gap-4">
+                <button type="submit">Login</button>
+                <button class="px-4 py-2 bg-red-500 transition hover:scale-150 hover:-translate-y-2 " type="submit">Sign Up</button>
+            </div>
+        </nav>
+        <div class="group-hover:hidden absolute inset-0 bg-black opacity-50"></div>
+        <main class="container mx-auto grid md:grid-cols-2 h-full gap-20 md:gap-36 px-12">
+            <div class="flex flex-col items-start justify-center gap-12 ">
+                <p class="text-6xl font-bold">Play Game Everytime Always Be Winner And Strong</p>
+                <p class="text-xl text-stone-500 text-balance">Improve your gaming skills by playing games that are currently popular so that you don't go out of style improve skills</p>
+                <div class="flex gap-4">
+                    <button class="px-6 py-2 bg-red-500 border-2 border-red-500 transition hover:text-red-500 hover:bg-transparent" type="submit">Get Started</button>
+                    <button class="px-6 py-2 border-2 transition hover:text-black hover:bg-white" type="submit">Learn More</button>
+                </div>
+            </div>
+
+            <div class="hidden md:flex flex-col items-center justify-center gap-36">
+                <div>
+                    <a href="#"><img src="./Assets/Icons/playButton.svg" alt="no-img"></a>
+                </div>
+                <div class="relative flex gap-4 ">
+                    <div class="pt-4">
+                        <img src="./Assets/Icons/dash.svg" alt="no-img">
+                    </div>
+                    <p class="text-4xl">The King Of Terania <br/> and Last Seasion <br/> XXIV</p>
+                    <div class="flex items-end">
+                        <a href="#"><img src="./Assets/Icons/rightArrow.svg" alt="no-img"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+   </header>
+</body>
